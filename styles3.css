@@ -1,0 +1,67 @@
+body {
+   margin: 2px;
+   padding: 1px;
+   color: #194A8D;
+   font-size: 15px; 
+   font-family: arial, Georgia, serif;
+   width: 1024px;
+}
+
+.header{
+  position: absolute; left: 0px ; top: 0px;
+  background: #194A8D;
+  color: white;
+  width: 300%;
+  height: 40px;
+}
+
+#header{
+  position: relative; left: 20px ; top:-10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 1.1px;
+  background-color: #194A8D;
+  padding: 1px;
+  row-gap: 1px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 0px;
+  font-size: 20px;
+}
+
+.machine{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.title{
+  font-weight: bold; 
+}
+
+.week{
+  position:relative; left: 0px; top: 12px;
+  border-bottom: 0px solid #194A8D;
+  width: 200%;
+}
+
+#week{
+  position:relative; left: 20px; top: 0px;
+}
+
+/*controls the sidebar*/
+.sidebar{
+    font-size: 80%;
+    position:absolute; left: 1050px; top: 80px;
+    width: 150px;
+    border: 5px;
+}
+
+.entryText{
+    font-size: 15px;
+}
